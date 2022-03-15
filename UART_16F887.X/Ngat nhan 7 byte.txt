@@ -1,0 +1,28 @@
+  unsigned char data1[7] = "";
+    //unsigned char data[8] = "";
+    unsigned char crc_code_1[2] = "";
+    //unsigned char crc_code[2] = "";
+
+    // UART2_Write('A');
+
+    if (PIR1bits.RCIF) {
+        if (UART_Data_Ready()) {
+            UART_Read_Text(data1, 7); // da co dau '\0' khi nhan
+            data1[7] = '\0';
+            UART2_Write_Text_Length(data1, 7);
+            //CONVERT_Data_1(data1, crc_code_1);
+
+            //UART_Write_Text(crc_code_1);
+//            if ((data1[11] == crc_code_1[0]) && (data1[12] == crc_code_1[1])) {
+//
+//                if (UART2_TX_Empty()) {
+//                    UART2_Write_Text_Phan_Tu_Thu_13(data1);
+//
+//                }
+//
+//            }
+
+        }
+
+    }
+}

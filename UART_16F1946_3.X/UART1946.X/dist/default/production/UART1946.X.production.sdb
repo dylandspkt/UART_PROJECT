@@ -1,0 +1,512 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1946 ]
+[d frameptr 6 ]
+"167 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/crcLIBhex.h
+[v _crc16 crc16 `(ui  1 e 2 0 ]
+[v i1_crc16 crc16 `(ui  1 e 2 0 ]
+"1 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/reflect_byte.h
+[v _reflect_byte reflect_byte `(v  1 e 1 0 ]
+[v i1_reflect_byte reflect_byte `(v  1 e 1 0 ]
+"1 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart.h
+[v _UART_Init UART_Init `(uc  1 e 1 0 ]
+"24
+[v _UART_TX_Empty UART_TX_Empty `(uc  1 e 1 0 ]
+"29
+[v _UART_Data_Ready UART_Data_Ready `(uc  1 e 1 0 ]
+"33
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+"54
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+"69
+[v _UART_Write_Text_Length UART_Write_Text_Length `(v  1 e 1 0 ]
+"1 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart2.h
+[v _UART2_Init UART2_Init `(uc  1 e 1 0 ]
+"26
+[v _UART2_Data_Ready UART2_Data_Ready `(uc  1 e 1 0 ]
+"30
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+"42
+[v _UART2_Read_Text UART2_Read_Text `(v  1 e 1 0 ]
+"50
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+"55
+[v _UART2_Write_Text UART2_Write_Text `(v  1 e 1 0 ]
+"60
+[v _UART2_Write_Text_Phan_Tu_Thu_7 UART2_Write_Text_Phan_Tu_Thu_7 `(v  1 e 1 0 ]
+"66
+[v _UART2_Write_Text_Phan_Tu_Thu_8 UART2_Write_Text_Phan_Tu_Thu_8 `(v  1 e 1 0 ]
+"73
+[v _UART2_Write_Text_Phan_Tu_Thu_13 UART2_Write_Text_Phan_Tu_Thu_13 `(v  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"75 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X\main.c
+[v _CONVERT_Data_1 CONVERT_Data_1 `(v  1 e 1 0 ]
+[v i1_CONVERT_Data_1 CONVERT_Data_1 `(v  1 e 1 0 ]
+"102
+[v _CONVERT_Data_5Byte CONVERT_Data_5Byte `(v  1 e 1 0 ]
+"130
+[v _CONVERT_Data_11Byte CONVERT_Data_11Byte `(v  1 e 1 0 ]
+"156
+[v _config_interrupt config_interrupt `T(v  1 s 1 config_interrupt ]
+"166
+[v _ISR ISR `II(v  1 e 1 0 ]
+"255
+[v _main main `(v  1 e 1 0 ]
+"57 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/crcLIBhex.h
+[v _CRC8_POLYNOMIAL CRC8_POLYNOMIAL `DCus  1 e 2 0 ]
+"58
+[v _CRC8_INIT CRC8_INIT `DCus  1 e 2 0 ]
+"59
+[v _CRC16_POLYNOMIAL CRC16_POLYNOMIAL `DCui  1 e 2 0 ]
+"60
+[v _CRC16_INIT CRC16_INIT `DCui  1 e 2 0 ]
+"62
+[v _crc32_lookup_table crc32_lookup_table `DC[256]ul  1 e 1024 0 ]
+"351 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1946.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S67 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"1400
+[s S76 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S81 . 1 `S67 1 . 1 0 `S76 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES81  1 e 1 @17 ]
+[s S151 . 1 `uc 1 SSP2IF 1 0 :1:0 
+`uc 1 BCL2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+]
+"1582
+[u S157 . 1 `S151 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES157  1 e 1 @20 ]
+[s S169 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"2379
+[s S178 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S183 . 1 `S169 1 . 1 0 `S178 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES183  1 e 1 @145 ]
+"2837
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"4586
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"4624
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"4669
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+[s S44 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4783
+[u S53 . 1 `S44 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES53  1 e 1 @413 ]
+[s S22 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4905
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES31  1 e 1 @414 ]
+"8524
+[v _ANSELG ANSELG `VEuc  1 e 1 @1037 ]
+"8815
+[v _RC2REG RC2REG `VEuc  1 e 1 @1169 ]
+"8835
+[v _TX2REG TX2REG `VEuc  1 e 1 @1170 ]
+"8855
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @1171 ]
+"8930
+[v _RC2STAbits RC2STAbits `VES53  1 e 1 @1173 ]
+"8992
+[v _TX2STAbits TX2STAbits `VES31  1 e 1 @1174 ]
+"14201
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1142 ]
+"14204
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1143 ]
+"14282
+[v _TRISG1 TRISG1 `VEb  1 e 0 @6249 ]
+"14285
+[v _TRISG2 TRISG2 `VEb  1 e 0 @6250 ]
+"255 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"267
+[v main@data data `[8]uc  1 a 8 46 ]
+"268
+[v main@crc_code crc_code `[2]uc  1 a 2 54 ]
+"260
+[v main@j j `ui  1 a 2 43 ]
+"259
+[v main@temp temp `[1]uc  1 a 1 45 ]
+"258
+[v main@F4706 F4706 `[1]uc  1 s 1 F4706 ]
+"265
+[v main@F4710 F4710 `[8]uc  1 s 8 F4710 ]
+"267
+[v main@F4712 F4712 `[2]uc  1 s 2 F4712 ]
+"308
+} 0
+"156
+[v _config_interrupt config_interrupt `T(v  1 s 1 config_interrupt ]
+{
+"161
+} 0
+"69 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart.h
+[v _UART_Write_Text_Length UART_Write_Text_Length `(v  1 e 1 0 ]
+{
+[v UART_Write_Text_Length@str str `*.4uc  1 a 1 wreg ]
+"71
+[v UART_Write_Text_Length@count count `VEi  1 a 2 5 ]
+"69
+[v UART_Write_Text_Length@str str `*.4uc  1 a 1 wreg ]
+[v UART_Write_Text_Length@length length `i  1 p 2 1 ]
+"71
+[v UART_Write_Text_Length@str str `*.4uc  1 a 1 4 ]
+"84
+} 0
+"54
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+{
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 0 ]
+"58
+} 0
+"24
+[v _UART_TX_Empty UART_TX_Empty `(uc  1 e 1 0 ]
+{
+"27
+} 0
+"1
+[v _UART_Init UART_Init `(uc  1 e 1 0 ]
+{
+"3
+[v UART_Init@x x `ui  1 a 2 27 ]
+"1
+[v UART_Init@baudrate baudrate `DCl  1 p 4 15 ]
+"22
+} 0
+"42 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart2.h
+[v _UART2_Read_Text UART2_Read_Text `(v  1 e 1 0 ]
+{
+[v UART2_Read_Text@Output Output `*.4uc  1 a 1 wreg ]
+"43
+[v UART2_Read_Text@i i `ui  1 a 2 5 ]
+"42
+[v UART2_Read_Text@Output Output `*.4uc  1 a 1 wreg ]
+[v UART2_Read_Text@length length `ui  1 p 2 0 ]
+"44
+[v UART2_Read_Text@Output Output `*.4uc  1 a 1 4 ]
+"48
+} 0
+"30
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+{
+"40
+} 0
+"1
+[v _UART2_Init UART2_Init `(uc  1 e 1 0 ]
+{
+"2
+[v UART2_Init@x x `ui  1 a 2 27 ]
+"1
+[v UART2_Init@baudrate baudrate `DCl  1 p 4 15 ]
+"20
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 11 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 10 ]
+[v ___aldiv@counter counter `uc  1 a 1 9 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"26 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart2.h
+[v _UART2_Data_Ready UART2_Data_Ready `(uc  1 e 1 0 ]
+{
+"28
+} 0
+"75 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X\main.c
+[v _CONVERT_Data_1 CONVERT_Data_1 `(v  1 e 1 0 ]
+{
+[v CONVERT_Data_1@input input `*.4uc  1 a 1 wreg ]
+"85
+[v CONVERT_Data_1@i i `ui  1 a 2 40 ]
+"77
+[v CONVERT_Data_1@input_ref input_ref `[6]uc  1 a 6 29 ]
+"78
+[v CONVERT_Data_1@txt txt `[6]uc  1 a 6 23 ]
+"80
+[v CONVERT_Data_1@output output `[2]uc  1 a 2 35 ]
+"79
+[v CONVERT_Data_1@crc crc `ui  1 a 2 38 ]
+"75
+[v CONVERT_Data_1@input input `*.4uc  1 a 1 wreg ]
+[v CONVERT_Data_1@output_ref output_ref `*.4uc  1 p 1 20 ]
+[v CONVERT_Data_1@F4665 F4665 `[6]uc  1 s 6 F4665 ]
+"77
+[v CONVERT_Data_1@F4667 F4667 `[6]uc  1 s 6 F4667 ]
+"79
+[v CONVERT_Data_1@F4670 F4670 `[2]uc  1 s 2 F4670 ]
+"77
+[v CONVERT_Data_1@input input `*.4uc  1 a 1 37 ]
+"98
+} 0
+"1 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/reflect_byte.h
+[v _reflect_byte reflect_byte `(v  1 e 1 0 ]
+{
+[v reflect_byte@byte byte `*.4uc  1 a 1 wreg ]
+"2
+[v reflect_byte@i i `uc  1 a 1 8 ]
+[v reflect_byte@j j `uc  1 a 1 6 ]
+[v reflect_byte@temp temp `uc  1 a 1 5 ]
+"1
+[v reflect_byte@byte byte `*.4uc  1 a 1 wreg ]
+[v reflect_byte@byte_ref byte_ref `*.4uc  1 p 1 0 ]
+[v reflect_byte@index index `uc  1 p 1 1 ]
+"3
+[v reflect_byte@byte byte `*.4uc  1 a 1 7 ]
+"10
+} 0
+"167 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/crcLIBhex.h
+[v _crc16 crc16 `(ui  1 e 2 0 ]
+{
+[v crc16@crcData crcData `*.4uc  1 a 1 wreg ]
+"171
+[v crc16@crc crc `ul  1 a 4 16 ]
+"170
+[v crc16@iByte iByte `ui  1 a 2 12 ]
+"169
+[v crc16@i i `uc  1 a 1 14 ]
+"167
+[v crc16@crcData crcData `*.4uc  1 a 1 wreg ]
+[v crc16@dataLen dataLen `ui  1 p 2 0 ]
+"171
+[v crc16@crcData crcData `*.4uc  1 a 1 15 ]
+"188
+} 0
+"166 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"174
+[v ISR@i i `i  1 a 2 57 ]
+"167
+[v ISR@data1 data1 `[13]uc  1 a 13 44 ]
+"168
+[v ISR@crc_code_1 crc_code_1 `VE[2]uc  1 a 2 61 ]
+"169
+[v ISR@flag flag `VEuc  1 a 1 60 ]
+"170
+[v ISR@len len `VEuc  1 a 1 59 ]
+"166
+[v ISR@F4698 F4698 `[13]uc  1 s 13 F4698 ]
+"167
+[v ISR@F4700 F4700 `VE[2]uc  1 s 2 F4700 ]
+"253
+} 0
+"75
+[v i1_CONVERT_Data_1 CONVERT_Data_1 `(v  1 e 1 0 ]
+{
+[v i1CONVERT_Data_1@input input `*.4uc  1 a 1 wreg ]
+[v i1CONVERT_Data_1@txt CONVERT_Data_1 `[6]uc  1 a 6 17 ]
+[v i1CONVERT_Data_1@input_ref CONVERT_Data_1 `[6]uc  1 a 6 11 ]
+[v i1CONVERT_Data_1@i CONVERT_Data_1 `ui  1 a 2 27 ]
+[v i1CONVERT_Data_1@output CONVERT_Data_1 `[2]uc  1 a 2 23 ]
+[v i1CONVERT_Data_1@crc CONVERT_Data_1 `ui  1 a 2 25 ]
+[v i1CONVERT_Data_1@input input `*.4uc  1 a 1 wreg ]
+[v i1CONVERT_Data_1@output_ref output_ref `*.4uc  1 p 1 12 ]
+"77
+[v i1CONVERT_Data_1@input input `*.4uc  1 a 1 10 ]
+"98
+} 0
+"33 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart.h
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+{
+"43
+} 0
+"29
+[v _UART_Data_Ready UART_Data_Ready `(uc  1 e 1 0 ]
+{
+"32
+} 0
+"66 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/uart2.h
+[v _UART2_Write_Text_Phan_Tu_Thu_8 UART2_Write_Text_Phan_Tu_Thu_8 `(v  1 e 1 0 ]
+{
+[v UART2_Write_Text_Phan_Tu_Thu_8@text text `*.4uc  1 a 1 wreg ]
+"68
+[v UART2_Write_Text_Phan_Tu_Thu_8@i i `i  1 a 2 3 ]
+"66
+[v UART2_Write_Text_Phan_Tu_Thu_8@text text `*.4uc  1 a 1 wreg ]
+"69
+[v UART2_Write_Text_Phan_Tu_Thu_8@text text `*.4uc  1 a 1 2 ]
+"71
+} 0
+"60
+[v _UART2_Write_Text_Phan_Tu_Thu_7 UART2_Write_Text_Phan_Tu_Thu_7 `(v  1 e 1 0 ]
+{
+[v UART2_Write_Text_Phan_Tu_Thu_7@text text `*.4uc  1 a 1 wreg ]
+"61
+[v UART2_Write_Text_Phan_Tu_Thu_7@i i `i  1 a 2 3 ]
+"60
+[v UART2_Write_Text_Phan_Tu_Thu_7@text text `*.4uc  1 a 1 wreg ]
+"62
+[v UART2_Write_Text_Phan_Tu_Thu_7@text text `*.4uc  1 a 1 2 ]
+"64
+} 0
+"73
+[v _UART2_Write_Text_Phan_Tu_Thu_13 UART2_Write_Text_Phan_Tu_Thu_13 `(v  1 e 1 0 ]
+{
+[v UART2_Write_Text_Phan_Tu_Thu_13@text text `*.4uc  1 a 1 wreg ]
+"75
+[v UART2_Write_Text_Phan_Tu_Thu_13@i i `i  1 a 2 3 ]
+"73
+[v UART2_Write_Text_Phan_Tu_Thu_13@text text `*.4uc  1 a 1 wreg ]
+"76
+[v UART2_Write_Text_Phan_Tu_Thu_13@text text `*.4uc  1 a 1 2 ]
+"78
+} 0
+"55
+[v _UART2_Write_Text UART2_Write_Text `(v  1 e 1 0 ]
+{
+"56
+[v UART2_Write_Text@i i `i  1 a 2 4 ]
+"55
+[v UART2_Write_Text@text text `*.25uc  1 p 2 1 ]
+"59
+} 0
+"50
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+{
+[v UART2_Write@data data `uc  1 a 1 wreg ]
+[v UART2_Write@data data `uc  1 a 1 wreg ]
+[v UART2_Write@data data `uc  1 a 1 0 ]
+"53
+} 0
+"102 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X\main.c
+[v _CONVERT_Data_5Byte CONVERT_Data_5Byte `(v  1 e 1 0 ]
+{
+[v CONVERT_Data_5Byte@input input `*.4uc  1 a 1 wreg ]
+"112
+[v CONVERT_Data_5Byte@i i `ui  1 a 2 25 ]
+"104
+[v CONVERT_Data_5Byte@input_ref input_ref `[5]uc  1 a 5 15 ]
+"105
+[v CONVERT_Data_5Byte@txt txt `[5]uc  1 a 5 10 ]
+"107
+[v CONVERT_Data_5Byte@output output `[2]uc  1 a 2 21 ]
+"106
+[v CONVERT_Data_5Byte@crc crc `ui  1 a 2 23 ]
+"102
+[v CONVERT_Data_5Byte@input input `*.4uc  1 a 1 wreg ]
+[v CONVERT_Data_5Byte@output_ref output_ref `*.4uc  1 p 1 12 ]
+[v CONVERT_Data_5Byte@F4676 F4676 `[5]uc  1 s 5 F4676 ]
+"104
+[v CONVERT_Data_5Byte@F4678 F4678 `[5]uc  1 s 5 F4678 ]
+"106
+[v CONVERT_Data_5Byte@F4681 F4681 `[2]uc  1 s 2 F4681 ]
+"104
+[v CONVERT_Data_5Byte@input input `*.4uc  1 a 1 20 ]
+"126
+} 0
+"130
+[v _CONVERT_Data_11Byte CONVERT_Data_11Byte `(v  1 e 1 0 ]
+{
+[v CONVERT_Data_11Byte@input input `*.4uc  1 a 1 wreg ]
+"140
+[v CONVERT_Data_11Byte@i i `ui  1 a 2 37 ]
+"132
+[v CONVERT_Data_11Byte@input_ref input_ref `[11]uc  1 a 11 21 ]
+"133
+[v CONVERT_Data_11Byte@txt txt `[11]uc  1 a 11 10 ]
+"135
+[v CONVERT_Data_11Byte@output output `[2]uc  1 a 2 33 ]
+"134
+[v CONVERT_Data_11Byte@crc crc `ui  1 a 2 35 ]
+"130
+[v CONVERT_Data_11Byte@input input `*.4uc  1 a 1 wreg ]
+[v CONVERT_Data_11Byte@output_ref output_ref `*.4uc  1 p 1 12 ]
+[v CONVERT_Data_11Byte@F4687 F4687 `[11]uc  1 s 11 F4687 ]
+"132
+[v CONVERT_Data_11Byte@F4689 F4689 `[11]uc  1 s 11 F4689 ]
+"134
+[v CONVERT_Data_11Byte@F4692 F4692 `[2]uc  1 s 2 F4692 ]
+"132
+[v CONVERT_Data_11Byte@input input `*.4uc  1 a 1 32 ]
+"154
+} 0
+"1 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/reflect_byte.h
+[v i1_reflect_byte reflect_byte `(v  1 e 1 0 ]
+{
+[v i1reflect_byte@byte byte `*.4uc  1 a 1 wreg ]
+[v i1reflect_byte@i reflect_byte `uc  1 a 1 8 ]
+[v i1reflect_byte@j reflect_byte `uc  1 a 1 7 ]
+[v i1reflect_byte@temp reflect_byte `uc  1 a 1 6 ]
+[v i1reflect_byte@byte byte `*.4uc  1 a 1 wreg ]
+[v i1reflect_byte@byte_ref byte_ref `*.4uc  1 p 1 0 ]
+[v i1reflect_byte@index index `uc  1 p 1 1 ]
+"3
+[v i1reflect_byte@byte byte `*.4uc  1 a 1 5 ]
+"10
+} 0
+"167 C:\Users\vanda\OneDrive\Documents\Desktop\MPLAB\UART_ver2\UART_16F1946_3.X\UART1946.X/crcLIBhex.h
+[v i1_crc16 crc16 `(ui  1 e 2 0 ]
+{
+[v i1crc16@crcData crcData `*.4uc  1 a 1 wreg ]
+[v i1crc16@crc crc16 `ul  1 a 4 4 ]
+[v i1crc16@iByte crc16 `ui  1 a 2 0 ]
+[v i1crc16@i crc16 `uc  1 a 1 3 ]
+[v i1crc16@crcData crcData `*.4uc  1 a 1 wreg ]
+[v i1crc16@dataLen dataLen `ui  1 p 2 0 ]
+"171
+[v i1crc16@crcData crcData `*.4uc  1 a 1 2 ]
+"188
+} 0

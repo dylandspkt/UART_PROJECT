@@ -1,0 +1,49 @@
+
+
+    OSCCON = 0b01111010;
+    const unsigned char*temp[1]="";
+    unsigned int i, j = 0;
+
+    UART_Init(9600);
+    UART2_Init(9600);
+    config_interrupt();
+    while (1) {
+
+        unsigned char data[8] = "";
+        unsigned char crc_code[2] = "";
+        if (UART2_Data_Ready()) {
+            UART2_Read_Text(data, 6);
+            CONVERT_Data_1(data, crc_code);
+            data[6] = crc_code[0];
+            data[7] = crc_code[1];
+            data[8] = '\0';
+            if (UART_TX_Empty()) {
+                UART_Write_Text_Length(data, 8);
+
+            }
+        }
+
+
+
+
+        //    while (1) {
+        //        if (UART2_Data_Ready()) {
+        //            UART2_Read_Text(data,8 );
+        //            data[8]='\0';
+        //            if (UART_TX_Empty()) {
+        //                UART_Write_Text_Length(data, 8);
+        //            }
+        //
+        //
+        //        }
+        //    }
+
+
+
+
+
+
+
+
+
+    }

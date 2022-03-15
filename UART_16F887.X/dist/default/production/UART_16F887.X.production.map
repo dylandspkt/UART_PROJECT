@@ -1,0 +1,1213 @@
+Microchip MPLAB XC8 Compiler V2.00 ()
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.00\pic\dat\en_msgs.txt \
+  -cs -h+dist/default/production\UART_16F887.X.production.sym \
+  --cmf=dist/default/production\UART_16F887.X.production.cmf -z -Q16F887 \
+  -oC:\Users\vanda\AppData\Local\Temp\s884.2 --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/UART_16F887.X.production.map -E1 -ver=XC8 \
+  --acfsm=1493 -ASTACK=0110h-016fh -pstack=STACK -ACODE=00h-07FFhx4 \
+  -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
+  -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
+  -ABANK1=0A0h-0EFh -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=02007h-02008h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\vanda\AppData\Local\Temp\s884.o \
+  dist/default/production\UART_16F887.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 16F887
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\vanda\AppData\Local\Temp\s884.o
+                end_init                             12       12        3        8       0
+                reset_vec                             0        0        3        0       0
+                idloc                              2000     2000        4     4000       0
+                config                             2007     2007        2     400E       0
+dist/default/production\UART_16F887.X.production.o
+                cinit                                15       15       45        8       0
+                intentry                              4        4        E        8       0
+                text17                              CFC      CFC       CE     19F8       0
+                text16                              A3A      A3A       56     1474       0
+                text15                              BBC      BBC       9A     1778       0
+                text14                              A90      A90       93     1520       0
+                text13                              B23      B23       99     1646       0
+                text12                             177F     177F        E     2EFE       0
+                text11                             17A9     17A9       12     2F52       0
+                text10                             17DB     17DB       25     2FB6       0
+                text9                              175A     175A        6     2EB4       0
+                text8                              178D     178D        E     2F1A       0
+                text7                               5BC      5BC       31        8       0
+                text6                               A20      A20       1A     1440       0
+                text5                                5A       5A      562        8       0
+                text4                              17BB     17BB       20     2F76       0
+                text3                               C56      C56       A6     18AC       0
+                text2                               DCA      DCA       ED     1B94       0
+                text1                              1760     1760        6     2EC0       0
+                maintext                            EB7      EB7      149     1D6E       0
+                cstackBANK0                          20       20       40       20       1
+                cstackCOMMON                         70       70        D       70       1
+                cstackBANK1                          C2       C2       22       A0       1
+                clrtext                            1766     1766        8     2ECC       0
+                inittext                            5ED      5ED       13        8       0
+                dataBANK3                           1A6      1A6        E      190       1
+                bssBANK3                            190      190       16      190       1
+                dataBANK1                            E4       E4        8       A0       1
+                bssBANK1                             A0       A0       22       A0       1
+                dataBANK0                            60       60        9       20       1
+                bssBANK0                             69       69        6       20       1
+                stringtext                          600      600      41E        C       0
+                idataBANK3                         179B     179B        E     2F36       0
+                idataBANK1                         176E     176E        8     2EDC       0
+                idataBANK0                         1776     1776        9     2EEC       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                             12       12        3         0
+                cinit                                15       15       45         0
+                intentry                              4        4        E         0
+                reset_vec                             0        0        3         0
+                text17                              CFC      CFC       CE         0
+                text16                              A3A      A3A       56         0
+                text15                              BBC      BBC       9A         0
+                text14                              A90      A90       93         0
+                text13                              B23      B23       99         0
+                text12                             177F     177F        E         0
+                text11                             17A9     17A9       12         0
+                text10                             17DB     17DB       25         0
+                text9                              175A     175A        6         0
+                text8                              178D     178D        E         0
+                text7                               5BC      5BC       31         0
+                text6                               A20      A20       1A         0
+                text5                                5A       5A      562         0
+                text4                              17BB     17BB       20         0
+                text3                               C56      C56       A6         0
+                text2                               DCA      DCA       ED         0
+                text1                              1760     1760        6         0
+                maintext                            EB7      EB7      149         0
+                clrtext                            1766     1766        8         0
+                inittext                            5ED      5ED       13         0
+                idataBANK3                         179B     179B        E         0
+                idataBANK1                         176E     176E        8         0
+                idataBANK0                         1776     1776        9         0
+
+        CLASS   STRCODE        
+                stringtext                          600      600      41E         0
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        D         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       40         1
+                dataBANK0                            60       60        9         1
+                bssBANK0                             69       69        6         1
+
+        CLASS   BANK1          
+                cstackBANK1                          C2       C2       22         1
+                dataBANK1                            E4       E4        8         1
+                bssBANK1                             A0       A0       22         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+                dataBANK3                           1A6      1A6        E         1
+                bssBANK3                            190      190       16         1
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        2         0
+
+        CLASS   IDLOC          
+                idloc                              2000     2000        4         0
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  0005FC  000600         8       0  CODE        2
+                cstackBANK0                    000020  00004F  00006F        20       1  BANK0       1
+                cstackCOMMON                   000070  00000D  00007D        70       1  COMMON      1
+                bssBANK1                       0000A0  00004C  0000EC        A0       1  BANK1       1
+                bssBANK3                       000190  000024  0001B4       190       1  BANK3       1
+                stringtext                     000600  00041E  000A1E         C       0  STRCODE     2
+                text6                          000A20  00001A  000A3A      1440       0  CODE        2
+                text16                         000A3A  000056  000A90      1474       0  CODE        2
+                text14                         000A90  000093  000B23      1520       0  CODE        2
+                text13                         000B23  000099  000BBC      1646       0  CODE        2
+                text15                         000BBC  00009A  000C56      1778       0  CODE        2
+                text3                          000C56  0000A6  000CFC      18AC       0  CODE        2
+                text17                         000CFC  0000CE  000DCA      19F8       0  CODE        2
+                text2                          000DCA  0000ED  000EB7      1B94       0  CODE        2
+                maintext                       000EB7  000149  001000      1D6E       0  CODE        2
+                text9                          00175A  000006  001760      2EB4       0  CODE        2
+                text1                          001760  000006  001766      2EC0       0  CODE        2
+                clrtext                        001766  000008  00176E      2ECC       0  CODE        2
+                idataBANK1                     00176E  000008  001776      2EDC       0  CODE        2
+                idataBANK0                     001776  000009  00177F      2EEC       0  CODE        2
+                text12                         00177F  00000E  00178D      2EFE       0  CODE        2
+                text8                          00178D  00000E  00179B      2F1A       0  CODE        2
+                idataBANK3                     00179B  00000E  0017A9      2F36       0  CODE        2
+                text11                         0017A9  000012  0017BB      2F52       0  CODE        2
+                text4                          0017BB  000020  0017DB      2F76       0  CODE        2
+                text10                         0017DB  000025  001800      2FB6       0  CODE        2
+                idloc                          002000  000004  002004      4000       0  IDLOC       2
+                config                         002007  000002  002009      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            006F-006F              1           1
+        BANK1            00EC-00EF              4           1
+        BANK2            0110-016F             60           1
+        BANK3            01B4-01EF             3C           1
+        CODE             0003-0003              1           2
+                         0A1E-0A1F              2
+                         1000-1759            75A
+                         1800-1FFF            800
+        COMMON           007D-007D              1           1
+        CONST            0003-0003              1           2
+                         0A1E-0A1F              2
+                         1000-1759            100
+                         1800-1FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0003-0003              1           2
+                         0A1E-0A1F              2
+                         1000-1759            100
+                         1800-1FFF            100
+        RAM              006F-006F              1           1
+                         00EC-00EF              4
+                         0110-016F             60
+                         01B4-01EF             3C
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STACK            0110-016F             60           1
+        STRCODE          0003-0003              1           2
+                         0A1E-0A1F              2
+                         1000-1759            75A
+                         1800-1FFF            800
+        STRING           0003-0003              1           2
+                         0A1E-0A1F              2
+                         1000-1759            100
+                         1800-1FFF            100
+
+                                  Symbol Table
+
+?___aldiv                        cstackBANK1  00C2
+?_crc16                          cstackCOMMON 0070
+CONVERT_Data_11Byte@F1512        bssBANK3     019B
+CONVERT_Data_11Byte@F1514        bssBANK3     0190
+CONVERT_Data_11Byte@F1517        bssBANK0     0069
+CONVERT_Data_11Byte@crc          cstackBANK0  0045
+CONVERT_Data_11Byte@i            cstackBANK0  0047
+CONVERT_Data_11Byte@input        cstackBANK0  0042
+CONVERT_Data_11Byte@input_ref    cstackBANK0  0037
+CONVERT_Data_11Byte@output       cstackBANK0  0043
+CONVERT_Data_11Byte@output_ref   cstackCOMMON 007C
+CONVERT_Data_11Byte@txt          cstackBANK0  002C
+CONVERT_Data_5Byte@F1490         bssBANK1     00B9
+CONVERT_Data_5Byte@F1492         bssBANK1     00B4
+CONVERT_Data_5Byte@F1495         bssBANK0     006D
+CONVERT_Data_5Byte@crc           cstackBANK0  0036
+CONVERT_Data_5Byte@i             cstackBANK0  0039
+CONVERT_Data_5Byte@input         cstackBANK0  0038
+CONVERT_Data_5Byte@input_ref     cstackBANK0  002F
+CONVERT_Data_5Byte@output        cstackBANK0  0034
+CONVERT_Data_5Byte@output_ref    cstackCOMMON 007C
+CONVERT_Data_5Byte@txt           cstackBANK0  002A
+CONVERT_Data_6Byte@F1501         bssBANK1     00AE
+CONVERT_Data_6Byte@F1503         bssBANK1     00A8
+CONVERT_Data_6Byte@F1506         bssBANK0     006B
+CONVERT_Data_6Byte@crc           cstackBANK0  0038
+CONVERT_Data_6Byte@i             cstackBANK0  003B
+CONVERT_Data_6Byte@input         cstackBANK0  003A
+CONVERT_Data_6Byte@input_ref     cstackBANK0  0030
+CONVERT_Data_6Byte@output        cstackBANK0  0036
+CONVERT_Data_6Byte@output_ref    cstackCOMMON 007C
+CONVERT_Data_6Byte@txt           cstackBANK0  002A
+EEPROM_Read@address              cstackCOMMON 0070
+EEPROM_Write@address             cstackBANK1  00C2
+EEPROM_Write@data                cstackBANK1  00C4
+ISR@F1521                        bssBANK1     00C0
+ISR@F1523                        bssBANK1     00BE
+ISR@F1525                        bssBANK1     00A0
+ISR@address                      cstackBANK0  005B
+ISR@crc_code_read                cstackBANK0  0059
+ISR@crc_code_response            cstackBANK0  005D
+ISR@data                         cstackBANK0  0051
+ISR@i                            cstackBANK0  005F
+UART_Init@baudrate               cstackBANK1  00D1
+UART_Init@x                      cstackBANK1  00E1
+UART_Read_Text@Output            cstackCOMMON 0074
+UART_Read_Text@i                 cstackCOMMON 0075
+UART_Read_Text@length            cstackCOMMON 0070
+UART_Write@datau                 cstackCOMMON 0070
+UART_Write_Text_Length@count     cstackCOMMON 0075
+UART_Write_Text_Length@length    cstackCOMMON 0073
+UART_Write_Text_Length@str       cstackCOMMON 0071
+_CONVERT_Data_11Byte             text15       0BBC
+_CONVERT_Data_5Byte              text14       0A90
+_CONVERT_Data_6Byte              text13       0B23
+_CRC16_INIT                      stringtext   0A16
+_CRC16_POLYNOMIAL                stringtext   0A18
+_CRC8_INIT                       stringtext   0A1A
+_CRC8_POLYNOMIAL                 stringtext   0A1C
+_EEADR                           (abs)        010D
+_EECON1bits                      (abs)        018C
+_EECON2                          (abs)        018D
+_EEDATA                          (abs)        010C
+_EEPROM_Read                     text12       177F
+_EEPROM_Write                    text4        17BB
+_INTCON                          (abs)        000B
+_INTCONbits                      (abs)        000B
+_ISR                             text5        005A
+_PIE1bits                        (abs)        008C
+_PIR1bits                        (abs)        000C
+_PIR2bits                        (abs)        000D
+_RCREG                           (abs)        001A
+_RCSTAbits                       (abs)        0018
+_SPBRG                           (abs)        0099
+_TRISC6                          (abs)        043E
+_TRISC7                          (abs)        043F
+_TXREG                           (abs)        0019
+_TXSTAbits                       (abs)        0098
+_UART_Init                       text2        0DCA
+_UART_Read                       text11       17A9
+_UART_Read_Text                  text10       17DB
+_UART_TX_Empty                   text9        175A
+_UART_Write                      text8        178D
+_UART_Write_Text_Length          text7        05BC
+__CFG_BOR4V$BOR40V               (abs)        0000
+__CFG_BOREN$ON                   (abs)        0000
+__CFG_CP$OFF                     (abs)        0000
+__CFG_CPD$OFF                    (abs)        0000
+__CFG_FCMEN$ON                   (abs)        0000
+__CFG_FOSC$INTRC_CLKOUT          (abs)        0000
+__CFG_IESO$ON                    (abs)        0000
+__CFG_LVP$ON                     (abs)        0000
+__CFG_MCLRE$ON                   (abs)        0000
+__CFG_PWRTE$OFF                  (abs)        0000
+__CFG_WDTE$OFF                   (abs)        0000
+__CFG_WRT$OFF                    (abs)        0000
+__Habs1                          abs1         0000
+__Hbank0                         bank0        0000
+__Hbank1                         bank1        0000
+__Hbank2                         bank2        0000
+__Hbank3                         bank3        0000
+__HbssBANK0                      bssBANK0     0000
+__HbssBANK1                      bssBANK1     0000
+__HbssBANK3                      bssBANK3     0000
+__Hcinit                         cinit        005A
+__Hclrtext                       clrtext      0000
+__Hcode                          code         0000
+__Hcommon                        common       0000
+__Hconfig                        config       2009
+__HcstackBANK0                   cstackBANK0  0000
+__HcstackBANK1                   cstackBANK1  0000
+__HcstackCOMMON                  cstackCOMMON 0000
+__HdataBANK0                     dataBANK0    0000
+__HdataBANK1                     dataBANK1    0000
+__HdataBANK3                     dataBANK3    0000
+__Heeprom_data                   eeprom_data  0000
+__Hend_init                      end_init     0015
+__Hfunctab                       functab      0000
+__HidataBANK0                    idataBANK0   0000
+__HidataBANK1                    idataBANK1   0000
+__HidataBANK3                    idataBANK3   0000
+__Hidloc                         idloc        2004
+__Hinit                          init         0012
+__Hinittext                      inittext     0000
+__Hintentry                      intentry     0012
+__Hmaintext                      maintext     0000
+__Hpowerup                       powerup      0000
+__Hram                           ram          0000
+__Hreset_vec                     reset_vec    0003
+__Hsfr0                          sfr0         0000
+__Hsfr1                          sfr1         0000
+__Hsfr2                          sfr2         0000
+__Hsfr3                          sfr3         0000
+__Hspace_0                       (abs)        2009
+__Hspace_1                       (abs)        01B4
+__Hspace_2                       (abs)        0000
+__Hspace_3                       (abs)        0000
+__Hstack                         stack        0000
+__Hstrings                       strings      0000
+__Hstringtext                    stringtext   0000
+__Htext                          text         0000
+__Labs1                          abs1         0000
+__Lbank0                         bank0        0000
+__Lbank1                         bank1        0000
+__Lbank2                         bank2        0000
+__Lbank3                         bank3        0000
+__LbssBANK0                      bssBANK0     0000
+__LbssBANK1                      bssBANK1     0000
+__LbssBANK3                      bssBANK3     0000
+__Lcinit                         cinit        0015
+__Lclrtext                       clrtext      0000
+__Lcode                          code         0000
+__Lcommon                        common       0000
+__Lconfig                        config       2007
+__LcstackBANK0                   cstackBANK0  0000
+__LcstackBANK1                   cstackBANK1  0000
+__LcstackCOMMON                  cstackCOMMON 0000
+__LdataBANK0                     dataBANK0    0000
+__LdataBANK1                     dataBANK1    0000
+__LdataBANK3                     dataBANK3    0000
+__Leeprom_data                   eeprom_data  0000
+__Lend_init                      end_init     0012
+__Lfunctab                       functab      0000
+__LidataBANK0                    idataBANK0   0000
+__LidataBANK1                    idataBANK1   0000
+__LidataBANK3                    idataBANK3   0000
+__Lidloc                         idloc        2000
+__Linit                          init         0012
+__Linittext                      inittext     0000
+__Lintentry                      intentry     0004
+__Lmaintext                      maintext     0000
+__Lpowerup                       powerup      0000
+__Lram                           ram          0000
+__Lreset_vec                     reset_vec    0000
+__Lsfr0                          sfr0         0000
+__Lsfr1                          sfr1         0000
+__Lsfr2                          sfr2         0000
+__Lsfr3                          sfr3         0000
+__Lspace_0                       (abs)        0000
+__Lspace_1                       (abs)        0000
+__Lspace_2                       (abs)        0000
+__Lspace_3                       (abs)        0000
+__Lstack                         stack        0000
+__Lstrings                       strings      0000
+__Lstringtext                    stringtext   0000
+__Ltext                          text         0000
+__S0                             (abs)        2009
+__S1                             (abs)        01B4
+__S2                             (abs)        0000
+__S3                             (abs)        0000
+___aldiv                         text3        0C56
+___aldiv@counter                 cstackBANK1  00CB
+___aldiv@dividend                cstackBANK1  00C6
+___aldiv@divisor                 cstackBANK1  00C2
+___aldiv@quotient                cstackBANK1  00CD
+___aldiv@sign                    cstackBANK1  00CC
+___int_sp                        stack        0000
+___latbits                       (abs)        0002
+___sp                            stack        0000
+__end_of_CONVERT_Data_11Byte     text15       0C56
+__end_of_CONVERT_Data_5Byte      text14       0B23
+__end_of_CONVERT_Data_6Byte      text13       0BBC
+__end_of_CRC16_INIT              stringtext   0A18
+__end_of_CRC16_POLYNOMIAL        stringtext   0A1A
+__end_of_CRC32_POLYNOMIAL        stringtext   0A16
+__end_of_CRC8_INIT               stringtext   0A1C
+__end_of_CRC8_POLYNOMIAL         stringtext   0A1E
+__end_of_EEPROM_Read             text12       178D
+__end_of_EEPROM_Write            text4        17DB
+__end_of_ISR                     text5        05BC
+__end_of_UART_Init               text2        0EB7
+__end_of_UART_Read               text11       17BB
+__end_of_UART_Read_Text          text10       1800
+__end_of_UART_TX_Empty           text9        1760
+__end_of_UART_Write              text8        179B
+__end_of_UART_Write_Text_Length  text7        05ED
+__end_of___aldiv                 text3        0CFC
+__end_of__initialization         cinit        0056
+__end_of__stringtab              stringtext   0612
+__end_of_config_interrupt        text1        1766
+__end_of_crc16                   text17       0DCA
+__end_of_crc32_lookup_table      stringtext   0A12
+__end_of_main                    maintext     1000
+__end_of_reflect_byte            text16       0A90
+__end_ofi1_EEPROM_Write          text6        0A3A
+__initialization                 cinit        0015
+__pbssBANK0                      bssBANK0     0069
+__pbssBANK1                      bssBANK1     00A0
+__pbssBANK3                      bssBANK3     0190
+__pcstackBANK0                   cstackBANK0  0020
+__pcstackBANK1                   cstackBANK1  00C2
+__pcstackCOMMON                  cstackCOMMON 0070
+__pdataBANK0                     dataBANK0    0060
+__pdataBANK1                     dataBANK1    00E4
+__pdataBANK3                     dataBANK3    01A6
+__pidataBANK0                    idataBANK0   1776
+__pidataBANK1                    idataBANK1   176E
+__pidataBANK3                    idataBANK3   179B
+__pintentry                      intentry     0004
+__pmaintext                      maintext     0EB7
+__pstringtext                    stringtext   0600
+__ptext1                         text1        1760
+__ptext10                        text10       17DB
+__ptext11                        text11       17A9
+__ptext12                        text12       177F
+__ptext13                        text13       0B23
+__ptext14                        text14       0A90
+__ptext15                        text15       0BBC
+__ptext16                        text16       0A3A
+__ptext17                        text17       0CFC
+__ptext2                         text2        0DCA
+__ptext3                         text3        0C56
+__ptext4                         text4        17BB
+__ptext5                         text5        005A
+__ptext6                         text6        0A20
+__ptext7                         text7        05BC
+__ptext8                         text8        178D
+__ptext9                         text9        175A
+__size_of_CONVERT_Data_11Byte    (abs)        0000
+__size_of_CONVERT_Data_5Byte     (abs)        0000
+__size_of_CONVERT_Data_6Byte     (abs)        0000
+__size_of_EEPROM_Read            (abs)        0000
+__size_of_EEPROM_Write           (abs)        0000
+__size_of_ISR                    (abs)        0000
+__size_of_UART_Init              (abs)        0000
+__size_of_UART_Read              (abs)        0000
+__size_of_UART_Read_Text         (abs)        0000
+__size_of_UART_TX_Empty          (abs)        0000
+__size_of_UART_Write             (abs)        0000
+__size_of_UART_Write_Text_Length (abs)        0000
+__size_of___aldiv                (abs)        0000
+__size_of_config_interrupt       (abs)        0000
+__size_of_crc16                  (abs)        0000
+__size_of_main                   (abs)        0000
+__size_of_reflect_byte           (abs)        0000
+__size_ofi1_EEPROM_Write         (abs)        0000
+__stringbase                     stringtext   0612
+__stringtab                      stringtext   0600
+_config_interrupt                text1        1760
+_crc16                           text17       0CFC
+_crc32_lookup_table              stringtext   0612
+_data_response_13byte            dataBANK3    01A6
+_data_response_7byte             dataBANK1    00E4
+_data_response_8byte             dataBANK0    0060
+_main                            maintext     0EB7
+_reflect_byte                    text16       0A3A
+btemp                            (abs)        007E
+clear_ram0                       clrtext      1766
+crc16@crc                        cstackBANK0  0024
+crc16@crcData                    cstackBANK0  0022
+crc16@dataLen                    cstackCOMMON 0070
+crc16@i                          cstackBANK0  0023
+crc16@iByte                      cstackBANK0  0020
+end_of_initialization            cinit        0056
+i1EEPROM_Write@address           cstackCOMMON 0070
+i1EEPROM_Write@data              cstackCOMMON 0072
+i1_EEPROM_Write                  text6        0A20
+init_fetch0                      inittext     05ED
+init_ram0                        inittext     05F1
+interrupt_function               intentry     0004
+intlevel0                        functab      0000
+intlevel1                        functab      0000
+intlevel2                        functab      0000
+intlevel3                        functab      0000
+intlevel4                        functab      0000
+intlevel5                        functab      0000
+reflect_byte@byte                cstackCOMMON 0070
+reflect_byte@byte_ref            cstackCOMMON 0072
+reflect_byte@i                   cstackCOMMON 007A
+reflect_byte@index               cstackCOMMON 0073
+reflect_byte@j                   cstackCOMMON 0079
+reflect_byte@temp                cstackCOMMON 0078
+reset_vec                        reset_vec    0000
+saved_w                          (abs)        007E
+stackhi                          (abs)        0000
+stacklo                          (abs)        0000
+start                            init         0012
+start_initialization             cinit        0015
+wtemp0                           (abs)        007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 369 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       1       0       0
+      Totals:         0       0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels required when called:    6
+ This function calls:
+		_EEPROM_Write
+		_UART_Init
+		_config_interrupt
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _config_interrupt *****************
+ Defined at:
+		line 363 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_Init *****************
+ Defined at:
+		line 6 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+  baudrate        4   15[BANK1 ] const long 
+ Auto vars:     Size  Location     Type
+  x               2   31[BANK1 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       4       0       0
+      Locals:         0       0       2       0       0
+      Temps:          0       0      12       0       0
+      Totals:         0       0      18       0       0
+Total ram usage:       18 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___aldiv
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___aldiv *****************
+ Defined at:
+		line 5 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\aldiv.c"
+ Parameters:    Size  Location     Type
+  divisor         4    0[BANK1 ] long 
+  dividend        4    4[BANK1 ] long 
+ Auto vars:     Size  Location     Type
+  quotient        4   11[BANK1 ] long 
+  sign            1   10[BANK1 ] unsigned char 
+  counter         1    9[BANK1 ] unsigned char 
+ Return value:  Size  Location     Type
+                  4    0[BANK1 ] long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       8       0       0
+      Locals:         0       0       6       0       0
+      Temps:          0       0       1       0       0
+      Totals:         0       0      15       0       0
+Total ram usage:       15 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_UART_Init
+ This function uses a non-reentrant model
+
+
+ *************** function _EEPROM_Write *****************
+ Defined at:
+		line 66 in file "main.c"
+ Parameters:    Size  Location     Type
+  address         2    0[BANK1 ] int 
+  data            1    2[BANK1 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       3       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       3       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_EEPROM_WriteString
+ This function uses a non-reentrant model
+
+
+ *************** function _ISR *****************
+ Defined at:
+		line 188 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  data            8   49[BANK0 ] unsigned char [8]
+  crc_code_res    2   61[BANK0 ] unsigned char [2]
+  address         2   59[BANK0 ] unsigned int 
+  crc_code_rea    2   57[BANK0 ] unsigned char [2]
+  i               1   63[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0      15       0       0       0
+      Temps:          0       8       0       0       0
+      Totals:         0      23       0       0       0
+Total ram usage:       23 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_CONVERT_Data_11Byte
+		_CONVERT_Data_5Byte
+		_CONVERT_Data_6Byte
+		_EEPROM_Read
+		_UART_Read_Text
+		_UART_TX_Empty
+		_UART_Write_Text_Length
+		i1_EEPROM_Write
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function i1_EEPROM_Write *****************
+ Defined at:
+		line 66 in file "main.c"
+ Parameters:    Size  Location     Type
+  address         2    0[COMMON] int 
+  data            1    2[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_Write_Text_Length *****************
+ Defined at:
+		line 71 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+  str             2    1[COMMON] PTR unsigned char 
+		 -> data_response_8byte(9), data_response_7byte(8), data_response_13byte(14), 
+  length          2    3[COMMON] int 
+ Auto vars:     Size  Location     Type
+  count           2    5[COMMON] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         6       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_UART_Write
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_Write *****************
+ Defined at:
+		line 43 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+  datau           1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  datau           1    0[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_UART_Write_Text_Length
+		_UART_Write_Text
+		_UART_Write_Text_2
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_TX_Empty *****************
+ Defined at:
+		line 26 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_Read_Text *****************
+ Defined at:
+		line 49 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+  Output          1    wreg     PTR unsigned char 
+		 -> ISR@data(8), 
+  length          2    0[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  Output          1    4[COMMON] PTR unsigned char 
+		 -> ISR@data(8), 
+  i               2    5[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         7       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_UART_Read
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _UART_Read *****************
+ Defined at:
+		line 34 in file "./uarthex.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_UART_Read_Text
+ This function uses a non-reentrant model
+
+
+ *************** function _EEPROM_Read *****************
+ Defined at:
+		line 96 in file "main.c"
+ Parameters:    Size  Location     Type
+  address         2    0[COMMON] int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _CONVERT_Data_6Byte *****************
+ Defined at:
+		line 134 in file "main.c"
+ Parameters:    Size  Location     Type
+  input           1    wreg     PTR unsigned char 
+		 -> data_response_8byte(9), ISR@data(8), 
+  output_ref      1   12[COMMON] PTR unsigned char 
+		 -> ISR@crc_code_response(2), ISR@crc_code_read(2), 
+ Auto vars:     Size  Location     Type
+  input           1   26[BANK0 ] PTR unsigned char 
+		 -> data_response_8byte(9), ISR@data(8), 
+  i               2   27[BANK0 ] unsigned int 
+  input_ref       6   16[BANK0 ] unsigned char [6]
+  txt             6   10[BANK0 ] unsigned char [6]
+  output          2   22[BANK0 ] unsigned char [2]
+  crc             2   24[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         0      19       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         1      21       0       0       0
+Total ram usage:       22 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_crc16
+		_reflect_byte
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _CONVERT_Data_5Byte *****************
+ Defined at:
+		line 107 in file "main.c"
+ Parameters:    Size  Location     Type
+  input           1    wreg     PTR unsigned char 
+		 -> data_response_7byte(8), 
+  output_ref      1   12[COMMON] PTR unsigned char 
+		 -> ISR@crc_code_response(2), 
+ Auto vars:     Size  Location     Type
+  input           1   24[BANK0 ] PTR unsigned char 
+		 -> data_response_7byte(8), 
+  i               2   25[BANK0 ] unsigned int 
+  input_ref       5   15[BANK0 ] unsigned char [5]
+  txt             5   10[BANK0 ] unsigned char [5]
+  output          2   20[BANK0 ] unsigned char [2]
+  crc             2   22[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         0      17       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         1      19       0       0       0
+Total ram usage:       20 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_crc16
+		_reflect_byte
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _CONVERT_Data_11Byte *****************
+ Defined at:
+		line 159 in file "main.c"
+ Parameters:    Size  Location     Type
+  input           1    wreg     PTR unsigned char 
+		 -> data_response_13byte(14), 
+  output_ref      1   12[COMMON] PTR unsigned char 
+		 -> ISR@crc_code_response(2), 
+ Auto vars:     Size  Location     Type
+  input           1   34[BANK0 ] PTR unsigned char 
+		 -> data_response_13byte(14), 
+  i               2   39[BANK0 ] unsigned int 
+  input_ref      11   23[BANK0 ] unsigned char [11]
+  txt            11   12[BANK0 ] unsigned char [11]
+  output          2   35[BANK0 ] unsigned char [2]
+  crc             2   37[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         0      29       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         1      33       0       0       0
+Total ram usage:       34 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_crc16
+		_reflect_byte
+ This function is called by:
+		_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _reflect_byte *****************
+ Defined at:
+		line 3 in file "./reflect_byte.h"
+ Parameters:    Size  Location     Type
+  byte            2    0[COMMON] PTR unsigned char 
+		 -> data_response_8byte(9), data_response_7byte(8), data_response_13byte(14), ISR@data(8), 
+		 -> CONVERT_Data_11Byte@output(2), CONVERT_Data_6Byte@output(2), CONVERT_Data_5Byte@output(2), 
+  byte_ref        1    2[COMMON] PTR unsigned char 
+		 -> ISR@crc_code_response(2), ISR@crc_code_read(2), CONVERT_Data_11Byte@input_ref(11), CONVERT_Data_6Byte@input_ref(6), 
+		 -> CONVERT_Data_5Byte@input_ref(5), 
+  index           1    3[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  i               1   10[COMMON] unsigned char 
+  j               1    9[COMMON] unsigned char 
+  temp            1    8[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          4       0       0       0       0
+      Totals:        11       0       0       0       0
+Total ram usage:       11 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_CONVERT_Data_5Byte
+		_CONVERT_Data_6Byte
+		_CONVERT_Data_11Byte
+ This function uses a non-reentrant model
+
+
+ *************** function _crc16 *****************
+ Defined at:
+		line 167 in file "./crcLIBhex.h"
+ Parameters:    Size  Location     Type
+  crcData         1    wreg     PTR unsigned char 
+		 -> CONVERT_Data_11Byte@txt(11), CONVERT_Data_6Byte@txt(6), CONVERT_Data_5Byte@txt(5), 
+  dataLen         2    0[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  crcData         1    2[BANK0 ] PTR unsigned char 
+		 -> CONVERT_Data_11Byte@txt(11), CONVERT_Data_6Byte@txt(6), CONVERT_Data_5Byte@txt(5), 
+  crc             4    4[BANK0 ] unsigned long 
+  iByte           2    0[BANK0 ] unsigned int 
+  i               1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] unsigned int 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       8       0       0       0
+      Temps:         10       0       0       0       0
+      Totals:        12       8       0       0       0
+Total ram usage:       20 bytes
+ Hardware stack levels used:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_CONVERT_Data_5Byte
+		_CONVERT_Data_6Byte
+		_CONVERT_Data_11Byte
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+./crcLIBhex.h
+		_crc16         		CODE           	0CFC	0000	207
+
+./crcLIBhex.h estimated size: 207
+
+./uarthex.h
+		_UART_TX_Empty 		CODE           	175A	0000	7
+		_UART_Read     		CODE           	17A9	0000	19
+		_UART_Write_Text_Length		CODE           	05BC	0000	50
+		_UART_Init     		CODE           	0DCA	0000	238
+		_UART_Read_Text		CODE           	17DB	0000	38
+		_UART_Write    		CODE           	178D	0000	15
+
+./uarthex.h estimated size: 367
+
+shared
+		__stringtab    		STRCODE        	0600	0000	19
+		i1_EEPROM_Write		CODE           	0A20	0000	27
+		_crc32_lookup_table		STRCODE        	0612	0000	1025
+		_CRC8_INIT     		STRCODE        	0A1A	0000	3
+		_CRC16_POLYNOMIAL		STRCODE        	0A18	0000	3
+		__initialization		CODE           	0015	0000	66
+		_CRC16_INIT    		STRCODE        	0A16	0000	3
+		_CRC8_POLYNOMIAL		STRCODE        	0A1C	0000	3
+		_CRC32_POLYNOMIAL		STRCODE        	0000	0000	0
+
+shared estimated size: 1149
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\aldiv.c
+		___aldiv       		CODE           	0C56	0000	167
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\aldiv.c estimated size: 167
+
+main.c
+		_config_interrupt		CODE           	1760	0000	7
+		_ISR           		CODE           	005A	0000	1379
+		_EEPROM_Read   		CODE           	177F	0000	15
+		_EEPROM_Write  		CODE           	17BB	0000	33
+		_main          		CODE           	0EB7	0000	330
+		_CONVERT_Data_5Byte		CODE           	0A90	0000	148
+		_CONVERT_Data_6Byte		CODE           	0B23	0000	154
+		_CONVERT_Data_11Byte		CODE           	0BBC	0000	155
+
+main.c estimated size: 2221
+
+./reflect_byte.h
+		_reflect_byte  		CODE           	0A3A	0000	87
+
+./reflect_byte.h estimated size: 87
+
